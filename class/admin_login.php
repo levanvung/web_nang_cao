@@ -23,11 +23,22 @@
             $admin_pass = mysqli_real_escape_string($this->db->link,$admin_pass);
 
             if(empty($admin_pass)||empty($admin_user)){
-                $alert = "Please enter your User or password";
+                $alert = "Please enter your user or pass";
                 return $alert;
             }else{
-                $query = "SELECT * FROM tbl_admin WHERE admin_user = $admin_user AND admin_pass = $admin_pass limit 1";
+                $query = "SELECT * FROM tbl_admin WHERE admin_user = '$admin_user' AND admin_pass = '$admin_pass' LIMIT 1";
                 $result = $this->db->select($query);
+                if($result != false){
+                    $value = $result->fetch_assoc();
+                    Session::set('admin_login',true);
+                    Session::set('admin_id',$value['admin_id']);
+                    Session::set('admin_user',$value['admin_user']);
+                    Session::set('admin_name',$value['admin_name']);
+                    header('Location:index.php');
+                }else{
+                    $alert = "Your User or Pass not match";
+                    return $alert;
+                }
             }
 
         }

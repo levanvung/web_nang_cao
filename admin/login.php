@@ -1,6 +1,5 @@
 <?php
-	include '../admin/class/admin_login.php';
-
+	include '../class/admin_login.php';
 ?>
 <?php
 	$class = new adminlogin();
@@ -36,15 +35,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="log-w3">
 <div class="w3layouts-main">
 	<h2>Sign In Now</h2>
+			<span><?php
+			if(isset($login_check)){
+				echo $login_check;
+			}
+			?></span>
 		<form action="login.php" method="post">
-			<input type="text" class="ggg" name="admin_user" placeholder="E-MAIL" required="">
+		
+			<input type="text" class="ggg" name="admin_user" placeholder="USERNAME" required="">
 			<input type="password" class="ggg" name="admin_pass" placeholder="PASSWORD" required="">
-			<span><input type="checkbox" />Remember Me</span>
-			<h6><a href="#">Forgot Password?</a></h6>
-				<div class="clearfix"></div>
-				<input type="submit" value="Sign In" name="login">
+			<input type="submit" value="Sign In" name="login">
 		</form>
-		<p>Don't Have an Account ?<a href="registration.html">Create an account</a></p>
+		<!-- <p>Don't Have an Account ?<a href="registration.html">Create an account</a></p> -->
 </div>
 </div>
 <script src="js/bootstrap.js"></script>
