@@ -37,7 +37,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 			<div class="header_agileits">
 				<div class="logo">
-					<h1><a class="navbar-brand" href="index.php"><span>Downy</span> <i>Shoes</i></a></h1>
+					<h1><a class="navbar-brand" href="index.php"><span>hoagaf</span> <i>store</i></a></h1>
 				</div>
 				<div class="overlay overlay-contentpush">
 					<button type="button" class="overlay-close"><i class="fa fa-times" aria-hidden="true"></i></button>
