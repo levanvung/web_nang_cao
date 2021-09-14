@@ -45,7 +45,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="wrapper_top_w3layouts">
 			<div class="header_agileits">
 				<div class="logo inner_page_log">
-					<h1><a class="navbar-brand" href="index.php"><span>Downy</span> <i>Shoes</i></a></h1>
+					<h1><a class="navbar-brand" href="index.php"><span>hoagaf</span> <i>Store</i></a></h1>
 				</div>
 				<div class="overlay overlay-contentpush">
 					<button type="button" class="overlay-close"><i class="fa fa-times" aria-hidden="true"></i></button>
@@ -114,13 +114,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 						<ul class="slides">
 							<li data-thumb="images/d2.jpg">
-								<div class="thumb-image"> <img src="images/d2.jpg" data-imagezoom="true" class="img-responsive"> </div>
+								<div class="thumb-image"> <img src="images/d2.jpg"  class="img-responsive"> </div>
 							</li>
 							<li data-thumb="images/d1.jpg">
-								<div class="thumb-image"> <img src="images/d1.jpg" data-imagezoom="true" class="img-responsive"> </div>
+								<div class="thumb-image"> <img src="images/d1.jpg"  class="img-responsive"> </div>
 							</li>
 							<li data-thumb="images/d3.jpg">
-								<div class="thumb-image"> <img src="images/d3.jpg" data-imagezoom="true" class="img-responsive"> </div>
+								<div class="thumb-image"> <img src="images/d3.jpg"  class="img-responsive"> </div>
 							</li>
 						</ul>
 						<div class="clearfix"></div>
